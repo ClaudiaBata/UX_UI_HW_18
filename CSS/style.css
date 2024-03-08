@@ -45,3 +45,126 @@ footer ul {
 footer ul li {
     padding: 10px;
 }
+
+
+/* Assuming you have a style.css file linked to your HTML */
+
+/* My UX Skills section */
+.mySkills {
+    margin-top: 50px; /* Adjust as needed */
+}
+
+/* Flex container */
+.flexContainer {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+/* Flex children */
+.flexContainer > div {
+    width: 30%; /* Adjust as needed */
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0; /* Placeholder background color */
+    text-align: center;
+}
+
+/* Skill icon */
+.flexContainer img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+
+/* Skill description */
+.flexContainer h3 {
+    font-size: 18px; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+
+.flexContainer p {
+    font-size: 14px; /* Adjust as needed */
+}
+
+
+/* Assuming you have a style.css file linked to your HTML */
+
+/* My Work section */
+.myWork {
+    margin-top: 50px; /* Adjust as needed */
+}
+
+/* Grid container */
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Adjust as needed */
+}
+
+/* Grid items */
+.workGrid > div {
+    background-color: #f0f0f0; /* Placeholder background color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Project image */
+.workGrid img {
+    max-width: 100%; /* Ensure image fits within container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px;
+}
+
+/* Project title */
+.workGrid h4 {
+    font-size: 18px; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+
+/* Project description */
+.workGrid p {
+    font-size: 14px; /* Adjust as needed */
+    margin-bottom: 15px;
+}
+
+/* View project button */
+.workGrid button {
+    padding: 8px 16px;
+    background-color: #007bff; /* Placeholder button color */
+    color: #fff; /* Button text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.workGrid button:hover {
+    background-color: #0056b3; /* Hover color */
+}
+
+/* View all projects */
+.myWork h3 {
+    text-align: center;
+    margin-top: 30px; /* Adjust as needed */
+}
+
+/* Assuming you have a style.css file linked to your HTML */
+
+/* Mobile Media Query */
+@media only screen and (max-width: 600px) {
+    /* For screens 600px and below */
+
+    /* Flex container */
+    .flexContainer {
+        flex-direction: column; /* Display items in a column */
+    }
+
+    /* Flex children */
+    .flexContainer > div {
+        width: 100%; /* Take up full width */
+    }
+
+    /* Grid container */
+    .workGrid {
+        grid-template-columns: 1fr; /* Single column */
+    }
+}
